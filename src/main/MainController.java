@@ -81,8 +81,12 @@ public class MainController implements Initializable{
             }
         } );
         for ( final File file : files ) {
-            if ( !file.delete() ) {
-                System.err.println( "Can't remove " + file.getAbsolutePath() );
+            if (datePicker.getEditor().getText().equals("One Day")) {
+                //if (file.lastModified())
+               //     file.
+            }
+            if (!file.delete()) {
+                System.err.println("Can't remove " + file.getAbsolutePath());
             }
         }
     }

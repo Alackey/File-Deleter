@@ -17,7 +17,7 @@
               <items>
                 <FXCollections fx:factory="observableArrayList">
                     <String fx:value="All" />
-                    <String fx:value=".txt"/>
+                    <String fx:value=".txt" />
                     <String fx:value=".zip" />
                     <String fx:value=".jpg" />
                     <String fx:value=".pdf" />

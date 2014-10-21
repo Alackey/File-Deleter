@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Delete Scheduler.iml" filepath="$PROJECT_DIR$/Delete Scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/File Deleter.iml" filepath="$PROJECT_DIR$/File Deleter.iml" />
     </modules>
   </component>
 </project>

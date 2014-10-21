@@ -22,7 +22,7 @@ public class Main extends Application {
 
 
         this.stage.setScene(scene);
-        this.stage.setTitle("Delete Scheduler");
+        this.stage.setTitle("Weed Wacker");
         this.stage.show();
 
     }
