@@ -39,16 +39,17 @@
             </HBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
                <children>
-                  <DatePicker fx:id="datePicker" prefHeight="25.0" prefWidth="171.0" promptText="Up Until When">
+                  <DatePicker fx:id="datePicker" focusTraversable="false" prefHeight="25.0" prefWidth="171.0" promptText="Last Modified When">
                      <HBox.margin>
                         <Insets right="4.0" />
                      </HBox.margin></DatePicker>
-                  <MenuButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="26.0">
+                  <MenuButton focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="26.0">
                     <items>
                       <MenuItem fx:id="oneDayID" mnemonicParsing="false" onAction="#oneDay" text="One Day" />
                       <MenuItem fx:id="oneWeekID" mnemonicParsing="false" onAction="#oneWeek" text="One Week" />
                         <MenuItem fx:id="twoWeeksID" mnemonicParsing="false" onAction="#twoWeeks" text="Two Weeks" />
                         <MenuItem fx:id="oneMonthID" mnemonicParsing="false" onAction="#oneMonth" text="One Month" />
+                        <MenuItem fx:id="twoMonthsID" mnemonicParsing="false" onAction="#twoMonths" text="Two Months" />
                     </items>
                   </MenuButton>
                </children></HBox>
@@ -59,7 +60,7 @@
             </VBox>
             <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="4">
                <children>
-                  <Button mnemonicParsing="false" onAction="#deleteButton" text="Delete" />
+                  <Button focusTraversable="false" mnemonicParsing="false" onAction="#deleteButton" text="Delete" />
                </children>
             </VBox>
       </children>

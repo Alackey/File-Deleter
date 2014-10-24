@@ -17,12 +17,12 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception{
         this.stage = stage;
+        //Loads the FXML I am using
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
         Scene scene = new Scene(root, 600, 400);
 
-
         this.stage.setScene(scene);
-        this.stage.setTitle("Weed Wacker");
+        this.stage.setTitle("File Deleter");
         this.stage.show();
 
     }
