@@ -19,7 +19,6 @@ Version
 Coming Soon
 -----------
 
-* Deleting files based on date modified.
 * Deleting files based on date accessed.
 * A local log of deleted files.
 * A log in Google Docs/Spreadsheets.
@@ -27,6 +26,8 @@ Coming Soon
 * Add dialog for missing prompts
 * Improved aesthetics
 * File Exemptions
+* Fix menu top bar
+* ~~Deleting files based on date modified.~~
 
 License
 ----
