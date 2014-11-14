@@ -1,0 +1,21 @@
+File Deleter
+
+File Deleter is a desktop application that deletes files in specific folders.
+
+Instructions:
+1. Choose a directory for the file you want deleted.
+2. Choose the file type you want deleted.
+3. If you want to choose a date for last modified, choose that next.
+4. (NO REVERSING THIS)Press delete.
+
+All options are currently working
+
+Choosing Directory for deleting files
+Choosing or typing file type
+Delete button to delete files
+Option to delete files based on last modified date
+
+I am currently working on it every so often to include features that make it more convenient and effective.
+
+Version
+0.9

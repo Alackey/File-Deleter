@@ -14,19 +14,19 @@ I am currently working on it every so often to include features that make it mor
 Version
 ----
 
-0.9
+1.0
 
 Coming Soon
 -----------
 
-* Deleting files based on date accessed.
 * A local log of deleted files.
 * A log in Google Docs/Spreadsheets.
-* Add warning dialog when deleting?
-* Add dialog for missing prompts
 * Improved aesthetics
 * File Exemptions
-* Fix menu top bar
+* Deleting files based on date accessed.
+* ~~Add dialog for missing prompts~~
+* ~~Fix menu top bar~~
+* ~~Add warning dialog when deleting?~~
 * ~~Deleting files based on date modified.~~
 
 License

@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 public class Main extends Application {
 
     public static Stage stage;
@@ -24,6 +25,5 @@ public class Main extends Application {
         this.stage.setScene(scene);
         this.stage.setTitle("File Deleter");
         this.stage.show();
-
     }
 }
