@@ -14,17 +14,17 @@ I am currently working on it every so often to include features that make it mor
 Version
 ----
 
-1.0
+1.1
 
 Coming Soon
 -----------
 
-* A log in Google Docs/Spreadsheets.
 * Improved aesthetics
 * Show files going to be deleted
 * File Exemptions
 * Deleting files based on date accessed.
 * ~~A local log of deleted files.~~
+* ~~A log in Google Drive.~~
 * ~~Add dialog for missing prompts~~
 * ~~Fix menu top bar~~
 * ~~Add warning dialog when deleting?~~

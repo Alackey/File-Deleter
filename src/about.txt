@@ -10,6 +10,7 @@ Instructions:
 
 All options are currently working
 
+Saving deletion log to Google Drive
 Choosing Directory for deleting files
 Choosing or typing file type
 Delete button to delete files
@@ -18,4 +19,4 @@ Option to delete files based on last modified date
 I am currently working on it every so often to include features that make it more convenient and effective.
 
 Version
-1.0
+1.1
