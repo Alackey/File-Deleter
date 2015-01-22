@@ -1,6 +1,7 @@
 package main;
 
 
+import api.DriveAPI;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -14,9 +15,13 @@ import org.controlsfx.dialog.Dialog;
 import java.awt.*;
 import java.io.*;
 import java.net.URL;
+import java.util.Date;
 import java.util.ResourceBundle;
+import java.util.Scanner;
 
 public class MainController implements Initializable {
+
+    private DriveAPI drive = new DriveAPI();
 
     @FXML
     private Button chooseDirectory;
@@ -88,12 +93,13 @@ public class MainController implements Initializable {
     }
 
     //Calls deleteFile() to delete selected file types
-    public void deleteButton() {
+    public void deleteButton() throws FileNotFoundException {
         deleteFile();
     }
 
-    public void deleteFile() {
+    public void deleteFile() throws FileNotFoundException {
         final File folder = selectedDirectory;
+        String fileNames = "";
 
         if (directoryChoosenCount == 0) {
             Dialogs.create()
@@ -131,6 +137,7 @@ public class MainController implements Initializable {
         if (response == Dialog.ACTION_YES) {
             System.out.println("yes");
             for (final File file : files) {
+                fileNames = fileNames + file.getName() + ", ";
                 if (datePicker.getEditor().getText().equals("")) {
                     if (!file.delete()) {
                         System.err.println("Can't remove " + file.getAbsolutePath());
@@ -140,6 +147,7 @@ public class MainController implements Initializable {
                 }
             }
         }
+        log(fileNames);
     }
 
     public void lastModified(File timedFile) {
@@ -189,6 +197,27 @@ public class MainController implements Initializable {
         //Opens text file with notepad
         File about = new File("src/about.txt");
         Desktop.getDesktop().edit(about);
+    }
+
+    public void log(String fileNames) throws FileNotFoundException {
+        String oldLogData = "";
+        Date date = new Date();
+
+        File log = new File("log.txt");
+        Scanner sc = new Scanner(log);
+        while (sc.hasNextLine()) {
+            oldLogData = oldLogData + sc.nextLine() + "\n";
+        }
+
+        PrintWriter pw = new PrintWriter(log);
+        pw.println(oldLogData + date.toString() + "\nDeleted: "+ fileNames + "\n");
+
+        pw.close();
+        sc.close();
+    }
+
+    public void saveToDrive() throws IOException {
+        drive.save();
     }
 
     public void close() {

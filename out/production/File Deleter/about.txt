@@ -18,4 +18,4 @@ Option to delete files based on last modified date
 I am currently working on it every so often to include features that make it more convenient and effective.
 
 Version
-0.9
+1.0
