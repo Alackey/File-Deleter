@@ -40,9 +40,6 @@ public class MainController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //comboBox.getItems().addAll("test", "test 2");
-
-        System.out.println(comboBox.getItems());
     }
 
     public void openFolder() {
@@ -63,8 +60,6 @@ public class MainController implements Initializable {
 
         //Adds folder name to "Directory" button
         chooseDirectory.setText("Directory Choosen: " + temp[temp.length - 1]);
-
-        System.out.println(selectedDirectory);
     }
 
     //Sets the text of the DatePicker box to oneDay
@@ -97,19 +92,22 @@ public class MainController implements Initializable {
         deleteFile();
     }
 
+    //Deletes files and error messages
     public void deleteFile() throws FileNotFoundException {
         final File folder = selectedDirectory;
         String fileNames = "";
 
+        //Error message display for no directory chosen
         if (directoryChoosenCount == 0) {
             Dialogs.create()
                     .owner(Main.stage)
                     .title("Error Dialog")
-                    .masthead("Directory Not Choosen")
+                    .masthead("Directory Not Chosen")
                     .message("Choose directory by clicking on the 'Choose Directory' button.")
                     .showError();
         }
 
+        //Error message if no file type selected
         if (comboBox.getEditor().getText().equals("")) {
             Dialogs.create()
                     .owner(Main.stage)
@@ -135,7 +133,6 @@ public class MainController implements Initializable {
                 .showConfirm();
 
         if (response == Dialog.ACTION_YES) {
-            System.out.println("yes");
             for (final File file : files) {
                 fileNames = fileNames + file.getName() + ", ";
                 if (datePicker.getEditor().getText().equals("")) {
@@ -150,6 +147,7 @@ public class MainController implements Initializable {
         log(fileNames);
     }
 
+    //Checks the files for their last modified date
     public void lastModified(File timedFile) {
         //Deletes files if last modified seconds is lest than a day
         if (datePicker.getEditor().getText().equals("One Day")) {
@@ -193,12 +191,14 @@ public class MainController implements Initializable {
         }
     }
 
+    //Opens the about txt file in a txt editor
     public void openAbout() throws IOException {
         //Opens text file with notepad
         File about = new File("src/about.txt");
         Desktop.getDesktop().edit(about);
     }
 
+    //Adds another log entry to the log.txt file
     public void log(String fileNames) throws FileNotFoundException {
         String oldLogData = "";
         Date date = new Date();
@@ -216,10 +216,12 @@ public class MainController implements Initializable {
         sc.close();
     }
 
+    //Calls the DriveAPI class
     public void saveToDrive() throws IOException {
         drive.save();
     }
 
+    //Closes the app
     public void close() {
         Main.stage.close();
     }

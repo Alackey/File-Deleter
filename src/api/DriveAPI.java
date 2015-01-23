@@ -39,11 +39,11 @@ public class DriveAPI {
 
         String url = flow.newAuthorizationUrl().setRedirectUri(REDIRECT_URI).build();
         URI uri = URI.create(url);
-        Desktop.getDesktop().browse(uri);
+        Desktop.getDesktop().browse(uri);       //Opens authorization link in browser
 
         //Waits X seconds before checking for authorization acceptance
         try {
-            Thread.sleep(10000);                 //1000 milliseconds is one second.
+            Thread.sleep(8000);                 //8000 milliseconds = 8 sec
         } catch(InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
@@ -51,6 +51,7 @@ public class DriveAPI {
         //Gets code from browser title
         String code = windows.authCode();
 
+        //Creates credential for uploading file to Google account
         GoogleTokenResponse response = flow.newTokenRequest(code).setRedirectUri(REDIRECT_URI).execute();
         GoogleCredential credential = new GoogleCredential().setFromTokenResponse(response);
 
@@ -63,10 +64,13 @@ public class DriveAPI {
         body.setDescription("Delete Log for File Deleter");
         body.setMimeType("text/plain");
 
+        //Creates file content
         java.io.File fileContent = new java.io.File("log.txt");
         FileContent mediaContent = new FileContent("text/plain", fileContent);
 
-        File file = service.files().insert(body, mediaContent).execute();
-        System.out.println("File ID: " + file.getId());
+        //Uploads files
+        //File file = service.files().insert(body, mediaContent).execute();
+        service.files().insert(body, mediaContent).execute();
+        //System.out.println("File ID: " + file.getId());
     }
 }

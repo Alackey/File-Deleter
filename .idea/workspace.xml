@@ -7,12 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Update readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/File Deleter/META-INF/MANIFEST.MF" />
       <change type="DELETED" beforePath="C:\Users\Anthony\Documents\Programs\File-Deleter\out\artifacts\JavaFXApp\JavaFXApp.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Anthony\Documents\Programs\File-Deleter\out\artifacts\JavaFXApp\JavaFXApp.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Anthony\Documents\Programs\File-Deleter\out\artifacts\JavaFXApp\JavaFXApp.jnlp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about.txt" afterPath="$PROJECT_DIR$/src/about.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/api/DriveAPI.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/api/DriveAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles$1.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles$User32.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles$User32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/api/GetAllWindowTitles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/main/MainController$1.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/main/MainController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/File Deleter/main/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/DriveAPI.java" afterPath="$PROJECT_DIR$/src/api/DriveAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/GetAllWindowTitles.java" afterPath="$PROJECT_DIR$/src/api/GetAllWindowTitles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainController.java" afterPath="$PROJECT_DIR$/src/main/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/File Deleter/about.txt" afterPath="$PROJECT_DIR$/out/production/File Deleter/about.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -83,17 +90,18 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="561">
               <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#285#286#0" expanded="false" />
+                <element signature="e#313#314#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-              <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31416836" vertical-offset="1632" max-vertical-offset="3434">
+              <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -102,17 +110,27 @@
       <file leaf-file-name="DriveAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/DriveAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="1020">
-              <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1088">
+              <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/about.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28060523" vertical-offset="0" max-vertical-offset="727">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
@@ -122,8 +140,8 @@
       <file leaf-file-name="GetAllWindowTitles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/GetAllWindowTitles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -132,7 +150,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="714">
+            <state vertical-scroll-proportion="-2.7666667" vertical-offset="257" max-vertical-offset="714">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -158,12 +176,12 @@
         <option value="$PROJECT_DIR$/src/main/about.txt" />
         <option value="$PROJECT_DIR$/help" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/log.txt" />
-        <option value="$PROJECT_DIR$/src/api/GetAllWindowTitles.java" />
-        <option value="$PROJECT_DIR$/src/main/MainController.java" />
-        <option value="$PROJECT_DIR$/src/api/DriveAPI.java" />
         <option value="$PROJECT_DIR$/src/about.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/api/GetAllWindowTitles.java" />
+        <option value="$PROJECT_DIR$/src/api/DriveAPI.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
       </list>
     </option>
   </component>
@@ -205,7 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,6 +276,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,7 +524,8 @@
       <workItem from="1417905546757" duration="398000" />
       <workItem from="1421711026639" duration="1183000" />
       <workItem from="1421714222677" duration="8611000" />
-      <workItem from="1421882059080" duration="7513000" />
+      <workItem from="1421882059080" duration="8111000" />
+      <workItem from="1421996084787" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <created>1415858166248</created>
@@ -518,7 +537,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78741000" />
+    <option name="totallyTimeSpent" value="81320000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -542,7 +561,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -611,7 +630,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,7 +656,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,7 +682,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -686,7 +708,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,7 +734,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +760,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,7 +786,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -786,7 +812,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="558">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,7 +838,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,7 +864,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="522">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,7 +890,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="540">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,7 +916,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="540">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,7 +942,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="522">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,8 +1000,43 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="561">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7666667" vertical-offset="257" max-vertical-offset="714">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/GetAllWindowTitles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,53 +1048,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/GetAllWindowTitles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/DriveAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="1020">
-          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1088">
+          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="714">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28060523" vertical-offset="0" max-vertical-offset="727">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.31416836" vertical-offset="1632" max-vertical-offset="3434">
+          <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
           <folding />
         </state>
       </provider>
